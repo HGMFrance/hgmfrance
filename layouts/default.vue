@@ -1,16 +1,19 @@
 <template>
   <div id="nuxt-default-wrapper" class="font-roboto">
     <TopBanner />
+    <TopBar />
     <Nuxt />
   </div>
 </template>
 
 <script>
 import TopBanner from '@/components/TopBanner'
+import TopBar from '@/components/TopBar'
 
 export default {
   components: {
     TopBanner,
+    TopBar,
   },
 }
 </script>
