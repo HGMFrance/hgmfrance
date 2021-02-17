@@ -34,6 +34,8 @@ export default {
     '@nuxtjs/eslint-module',
     // https://tailwindcss.nuxtjs.org
     '@nuxtjs/tailwindcss',
+    // https://www.npmjs.com/package/@nuxtjs/svg
+    '@nuxtjs/svg',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
