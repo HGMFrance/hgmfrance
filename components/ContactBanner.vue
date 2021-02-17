@@ -4,8 +4,16 @@
       class="flex flex-col lg:flex-row justify-between items-center lg:max-w-5xl xl:max-w-7xl px-8 sm:px-16 w-full mx-auto text-white"
     >
       <div class="mb-4 lg:mb-0">
-        <h3 class="mb-2 font-medium leading-normal text-2xl">{{ title }}</h3>
-        <p class="font-normal leading-normal text-base">{{ subtitle }}</p>
+        <h3
+          class="mb-2 text-center lg:text-left font-medium leading-normal text-2xl"
+        >
+          {{ title }}
+        </h3>
+        <p
+          class="text-center lg:text-left font-normal leading-normal text-base"
+        >
+          {{ subtitle }}
+        </p>
       </div>
 
       <a
