@@ -1,5 +1,7 @@
 # hgmfrance
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1ace362d-5df0-48c3-9313-04c3867e4dbb/deploy-status)](https://app.netlify.com/sites/hgmfrance/deploys)
+
 ## Build Setup
 
 ```bash
