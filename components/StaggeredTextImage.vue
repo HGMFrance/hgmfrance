@@ -1,25 +1,35 @@
 <template>
   <section
-    class="flex flex-row lg:max-w-5xl xl:max-w-7xl px-8 sm:px-16 py-16 mx-auto"
+    class="flex flex-col lg:flex-row lg:max-w-5xl xl:max-w-7xl px-8 sm:px-16 py-8 lg:py-16 mx-auto"
   >
-    <div :class="['w-3/5', inverted ? 'order-1 pl-16' : 'order-0 pr-16']">
+    <div
+      :class="[
+        'w-full lg:w-3/5',
+        inverted ? 'order-1 lg:pl-16' : 'order-0 lg:pr-16',
+      ]"
+    >
       <h2
         class="mb-6 text-blue-900 text-2xl max-w-xl leading-tight font-medium"
       >
         {{ title }}
       </h2>
 
-      <div class="text" v-html="text"></div>
+      <div class="text mb-8 lg:mb-0" v-html="text"></div>
     </div>
 
-    <img class="w-2/5 h-auto rounded-md" :src="image" alt="" />
+    <img
+      :class="[
+        'w-full lg:w-2/5 h-auto rounded-md',
+        inverted ? 'mb-8 lg:mb-0' : '',
+      ]"
+      :src="image"
+      alt=""
+    />
   </section>
 </template>
 
 <script>
 export default {
-  // props: ['title', 'text', 'image', 'inverted'],
-
   props: {
     title: {
       type: String,
