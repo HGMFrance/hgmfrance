@@ -1,8 +1,19 @@
 <template>
   <div id="nuxt-default-wrapper" class="font-roboto">
+    <TopBanner />
     <Nuxt />
   </div>
 </template>
+
+<script>
+import TopBanner from '@/components/TopBanner'
+
+export default {
+  components: {
+    TopBanner,
+  },
+}
+</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
