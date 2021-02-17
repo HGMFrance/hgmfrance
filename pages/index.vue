@@ -1,16 +1,23 @@
 <template>
   <div>
     <Carousel :slides="slides" />
+
     <Partners :images="partners" />
+
+    <ContactBanner
+      title="Vous recherchez une solution adéquate pour votre entreprise?"
+      subtitle="Contactez-nous dès aujourd'hui pour une consultation gratuite ou plus d'informations."
+    />
   </div>
 </template>
 
 <script>
 import Carousel from '@/components/Carousel'
+import ContactBanner from '@/components/ContactBanner'
 import Partners from '@/components/Partners'
 
 export default {
-  components: { Carousel, Partners },
+  components: { Carousel, ContactBanner, Partners },
 
   data() {
     return {
