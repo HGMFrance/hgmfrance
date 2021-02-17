@@ -1,7 +1,7 @@
 <template>
   <nav class="py-3 text-gray-600 bg-white">
     <div
-      class="lg:max-w-5xl xl:max-w-7xl mx-auto px-16 flex flex-row justify-between items-center text-sm tracking-tight font-medium"
+      class="lg:max-w-5xl xl:max-w-7xl mx-auto px-8 sm:px-16 flex flex-row justify-between items-center text-sm tracking-tight font-medium"
     >
       <img
         class="inline-block h-8 w-auto"

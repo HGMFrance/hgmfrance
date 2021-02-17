@@ -43,7 +43,7 @@ export default {
 
   props: {
     slides: {
-      type: Object,
+      type: Array,
       required: true,
     },
   },
@@ -112,6 +112,7 @@ export default {
 .slider {
   position: relative;
   height: 568px;
+  overflow-x: hidden;
 }
 
 .slide-container {
@@ -144,16 +145,21 @@ export default {
 }
 
 .slide-content-container {
-  width: 800px;
-  padding-left: 8.5rem;
+  width: 100%;
+  padding: 0 2rem;
+
+  @media (min-width: 1024px) {
+    width: 800px;
+    padding: 0 0 0 8.5rem;
+  }
 }
 
 .slide-title {
-  @apply mb-6 text-4xl font-bold uppercase leading-tight;
+  @apply mb-6 text-2xl lg:text-4xl font-bold uppercase leading-tight;
 }
 
 .slide-description {
-  @apply mb-12 text-lg font-normal;
+  @apply mb-12 text-base lg:text-lg font-normal;
 }
 
 .learn-more-cta {
@@ -162,7 +168,7 @@ export default {
 
 .chevron {
   position: absolute;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   top: 0;
@@ -171,6 +177,10 @@ export default {
   color: #fff;
   background-color: transparent;
   cursor: pointer;
+
+  @media (min-width: 1024px) {
+    display: flex;
+  }
 }
 
 .chevron svg {
