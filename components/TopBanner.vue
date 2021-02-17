@@ -4,7 +4,7 @@
     class="py-3 border-b border-gray-200 text-gray-600 bg-white"
   >
     <div
-      class="max-w-5xl px-16 flex flex-row justify-between items-center text-sm"
+      class="lg:max-w-5xl xl:max-w-7xl mx-auto px-16 flex flex-row justify-between items-center text-sm"
     >
       <!-- Left part -->
       <ul class="flex flex-row">
