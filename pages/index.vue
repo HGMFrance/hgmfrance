@@ -2,6 +2,19 @@
   <div>
     <Carousel :slides="slides" />
 
+    <StaggeredTextImage
+      title="Nous sommes une équipe de professionnels qui vous aideront pour mener à bien votre projet."
+      text="<p>Vivamus finibus accumsan ultricies orem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend consequat metus, ac egestas tortor placerat vehicula. Nulla tincidunt risus nisl, sed iaculis elit dapibus id. Suspendisse quis lorem nibh. Fusce a magna sollicitudin, semper justo a sagittis.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curay. Fusce a magna sollicitudin, semper justo a sagittis est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curay.</p>"
+      image="http://demo.themenio.com/industrial/image/photo-sm-main-c.jpg"
+    />
+
+    <StaggeredTextImage
+      title="Nous fournissons des solutions innovantes pour un progrès durable."
+      text="<p>Vivamus finibus accumsan ultricies orem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend consequat metus, ac egestas tortor placerat vehicula. Nulla tincidunt risus nisl, sed iaculis elit dapibus id. Suspendisse quis lorem nibh. Fusce a magna sollicitudin, semper justo a sagittis.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curay. Fusce a magna sollicitudin, semper justo a sagittis est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curay.</p>"
+      image="http://demo.themenio.com/industrial/image/post-thumb-b.jpg"
+      :inverted="true"
+    />
+
     <Partners :images="partners" />
 
     <ContactBanner
@@ -15,9 +28,10 @@
 import Carousel from '@/components/Carousel'
 import ContactBanner from '@/components/ContactBanner'
 import Partners from '@/components/Partners'
+import StaggeredTextImage from '@/components/StaggeredTextImage'
 
 export default {
-  components: { Carousel, ContactBanner, Partners },
+  components: { Carousel, ContactBanner, Partners, StaggeredTextImage },
 
   data() {
     return {
