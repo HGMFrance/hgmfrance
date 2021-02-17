@@ -2,7 +2,7 @@
   <div id="nuxt-default-wrapper" class="font-roboto">
     <TopBanner />
     <TopBar />
-    <Nuxt class="lg:max-w-5xl xl:max-w-7xl mx-auto px-16" />
+    <Nuxt />
   </div>
 </template>
 
