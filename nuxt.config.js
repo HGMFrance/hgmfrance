@@ -32,6 +32,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    // https://tailwindcss.nuxtjs.org
+    '@nuxtjs/tailwindcss',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
