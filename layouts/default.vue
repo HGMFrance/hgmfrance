@@ -3,15 +3,21 @@
     <TopBanner />
     <TopBar />
     <Nuxt />
+    <BottomBar />
+    <BottomBanner />
   </div>
 </template>
 
 <script>
+import BottomBanner from '@/components/BottomBanner'
+import BottomBar from '@/components/BottomBar'
 import TopBanner from '@/components/TopBanner'
 import TopBar from '@/components/TopBar'
 
 export default {
   components: {
+    BottomBanner,
+    BottomBar,
     TopBanner,
     TopBar,
   },

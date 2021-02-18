@@ -1,8 +1,5 @@
 <template>
-  <div
-    id="top-banner-component"
-    class="py-3 border-b border-gray-200 text-gray-600 bg-white"
-  >
+  <div class="py-3 border-b border-gray-200 text-gray-600 bg-white">
     <div
       class="lg:max-w-5xl xl:max-w-7xl mx-auto px-8 sm:px-16 flex flex-col sm:flex-row justify-between items-center text-sm"
     >
