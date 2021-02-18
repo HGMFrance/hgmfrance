@@ -46,7 +46,7 @@ export default {
     return {
       slides: [
         {
-          image: 'http://demo.themenio.com/industrial/image/slider-mine-a.jpg',
+          image: require('@/assets/images/slider-mine.jpg'),
           title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
           textColor: 'white',
           description:
@@ -54,7 +54,7 @@ export default {
           learnMoreLink: 'https://google.com/',
         },
         {
-          image: 'http://demo.themenio.com/industrial/image/slider-oil-a.jpg',
+          image: require('@/assets/images/slider-oil.jpg'),
           title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
           textColor: 'dark',
           description:
@@ -62,8 +62,7 @@ export default {
           learnMoreLink: 'https://google.com/',
         },
         {
-          image:
-            'http://demo.themenio.com/industrial/image/slider-welding-b.jpg',
+          image: require('@/assets/images/slider-welding.jpg'),
           title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
           textColor: 'white',
           description:
@@ -74,34 +73,34 @@ export default {
 
       projectsSlides: [
         {
-          image: 'http://demo.themenio.com/industrial/image/work-sm-b.jpg',
+          image: require('@/assets/images/post-wind-turbine.jpg'),
           title: 'Wind Turbine',
         },
         {
-          image: 'http://demo.themenio.com/industrial/image/work-sm-a.jpg',
+          image: require('@/assets/images/post-work-complex.jpg'),
           title: 'Altria Warehouse Complex',
         },
         {
-          image: 'http://demo.themenio.com/industrial/image/work-sm-c.jpg',
+          image: require('@/assets/images/post-train.jpg'),
           title: 'Apollo Hill Project',
         },
         {
-          image: 'http://demo.themenio.com/industrial/image/work-sm-e.jpg',
+          image: require('@/assets/images/post-desert-mining.jpg'),
           title: 'Rocky Forge Refinary',
         },
         {
-          image: 'http://demo.themenio.com/industrial/image/work-sm-f.jpg',
+          image: require('@/assets/images/post-cargo.jpg'),
           title: 'Mingo Village Mining',
         },
       ],
 
       partners: [
-        'http://demo.themenio.com/industrial/image/cl-logo1.png',
-        'http://demo.themenio.com/industrial/image/cl-logo2.png',
-        'http://demo.themenio.com/industrial/image/cl-logo3.png',
-        'http://demo.themenio.com/industrial/image/cl-logo4.png',
-        'http://demo.themenio.com/industrial/image/cl-logo5.png',
-        'http://demo.themenio.com/industrial/image/cl-logo6.png',
+        require('@/assets/partners/cl-logo1.png'),
+        require('@/assets/partners/cl-logo2.png'),
+        require('@/assets/partners/cl-logo3.png'),
+        require('@/assets/partners/cl-logo4.png'),
+        require('@/assets/partners/cl-logo5.png'),
+        require('@/assets/partners/cl-logo6.png'),
       ],
     }
   },
