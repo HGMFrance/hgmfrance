@@ -1,11 +1,11 @@
 <template>
   <section
-    class="flex flex-col lg:flex-row lg:max-w-5xl xl:max-w-7xl px-8 sm:px-16 py-8 lg:py-16 mx-auto"
+    class="flex flex-col lg:flex-row lg:items-center lg:max-w-5xl xl:max-w-7xl px-8 sm:px-16 py-8 lg:py-16 mx-auto"
   >
     <div
       :class="[
         'w-full lg:w-3/5',
-        inverted ? 'order-1 lg:pl-16' : 'order-0 lg:pr-16',
+        inverted ? 'lg:order-1 lg:pl-16' : 'order-0 lg:pr-16',
       ]"
     >
       <h2
