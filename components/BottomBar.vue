@@ -2,41 +2,37 @@
   <footer
     class="footer-component py-12 px-8 bg-gradient-to-br from-gray-800 to-gray-900"
   >
-    <div class="max-w-5xl mx-auto flex flex-col md:flex-row">
-      <div class="w-full md:w-64 mr-24 mb-10 md:mb-0">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row text-white">
+      <div class="w-full md:w-64 mr-16 mb-10 md:mb-0">
         <img
           class="block w-10 mb-4"
           alt=""
           src="@/assets/logo/logo-white.png"
         />
 
-        <p class="mb-4 font-normal text-sm text-white">
+        <p class="mb-4 text-sm">
           Conception de systèmes pour lignes de conditionnement.
         </p>
 
-        <p
-          class="flex items-center mb-4 font-medium text-base text-gray-100 underline"
-        >
+        <p class="flex items-center mb-4 font-medium text-gray-100 underline">
           <Mail class="h-5 w-auto mr-2" />
           <a href="mailto:contact@hgmfrance.fr">contact@hgmfrance.fr</a>
         </p>
 
-        <p
-          class="flex items-center font-medium text-base text-gray-100 underline"
-        >
+        <p class="flex items-center font-medium text-gray-100 underline">
           <Phone class="h-5 w-auto mr-2" />
           <a href="tel:+33642871966">+33 6 42 87 19 66</a>
         </p>
       </div>
 
-      <div class="w-full md:w-40 mr-24 mb-10 md:mb-0">
-        <h4 class="mb-3 font-bold text-xl text-white">Navigation</h4>
+      <div class="w-full md:w-40 mr-16 mb-10 md:mb-0">
+        <h4 class="mb-3 font-bold text-xl">Navigation</h4>
 
         <ul>
           <li class="my-2">
             <a
               aria-current="page"
-              class="flex flex-row items-center font-medium text-base text-gray-100 underline"
+              class="flex flex-row items-center font-medium text-gray-100 underline"
               href="/"
             >
               <ChevronRightSmall class="h-5 w-auto" />
@@ -46,7 +42,7 @@
 
           <li class="my-2">
             <a
-              class="flex flex-row items-center font-medium text-base text-gray-100 underline"
+              class="flex flex-row items-center font-medium text-gray-100 underline"
               href="#"
             >
               <ChevronRightSmall class="h-5 w-auto" />
@@ -56,7 +52,7 @@
 
           <li class="my-2">
             <a
-              class="flex flex-row items-center font-medium text-base text-gray-100 underline"
+              class="flex flex-row items-center font-medium text-gray-100 underline"
               href="#"
             >
               <ChevronRightSmall class="h-5 w-auto" />
@@ -66,13 +62,13 @@
         </ul>
       </div>
 
-      <div class="w-full md:w-80">
-        <h4 class="mb-3 font-bold text-xl text-white">Services</h4>
+      <div class="w-full md:w-40 mr-16 mb-10 md:mb-0">
+        <h4 class="mb-3 font-bold text-xl">Services</h4>
 
         <ul>
           <li class="my-2">
             <p
-              class="flex flex-row items-center mb-1 font-medium text-base text-gray-100"
+              class="flex flex-row items-center mb-1 font-medium text-gray-100"
             >
               <ChevronRightSmall class="h-5 w-auto" />
               Service #1
@@ -81,7 +77,7 @@
 
           <li class="my-2">
             <p
-              class="flex flex-row items-center mb-1 font-medium text-base text-gray-100"
+              class="flex flex-row items-center mb-1 font-medium text-gray-100"
             >
               <ChevronRightSmall class="h-5 w-auto" />
               Service #2
@@ -90,7 +86,7 @@
 
           <li class="my-2">
             <p
-              class="flex flex-row items-center mb-1 font-medium text-base text-gray-100"
+              class="flex flex-row items-center mb-1 font-medium text-gray-100"
             >
               <ChevronRightSmall class="h-5 w-auto" />
               Service #3
@@ -99,7 +95,7 @@
 
           <li class="my-2">
             <p
-              class="flex flex-row items-center mb-1 font-medium text-base text-gray-100"
+              class="flex flex-row items-center mb-1 font-medium text-gray-100"
             >
               <ChevronRightSmall class="h-5 w-auto" />
               Service #4
@@ -107,14 +103,23 @@
           </li>
 
           <li class="my-2">
-            <p
-              class="flex flex-row items-center font-medium text-base text-gray-100"
-            >
+            <p class="flex flex-row items-center font-medium text-gray-100">
               <ChevronRightSmall class="h-5 w-auto" />
               Service #5
             </p>
           </li>
         </ul>
+      </div>
+
+      <div class="w-full md:w-56">
+        <h4 class="mb-3 font-bold text-xl">Contact</h4>
+
+        <p class="mb-1 font-medium">H.G.M. France</p>
+        <p>3 Rue Paul Tavernier</p>
+        <p class="mb-3">77300 Fontainebleau, FR</p>
+
+        <p>Tél. fixe: +33 6 42 87 19 66</p>
+        <p>Tél. mobile: +33 6 42 87 19 66</p>
       </div>
     </div>
   </footer>
