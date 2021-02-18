@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="pages_index">
     <Carousel :slides="slides" />
 
     <StaggeredTextImage
@@ -14,6 +14,8 @@
       image="http://demo.themenio.com/industrial/image/post-thumb-b.jpg"
       :inverted="true"
     />
+
+    <CardsRow title="Nos services" :cards="serviceCards" />
 
     <ItemsSlider title="Nos derniers projets" :slides="projectsSlides" />
 
@@ -32,6 +34,7 @@ import ContactBanner from '@/components/ContactBanner'
 import Partners from '@/components/Partners'
 import StaggeredTextImage from '@/components/StaggeredTextImage'
 import ItemsSlider from '@/components/ItemsSlider'
+import CardsRow from '@/components/CardsRow'
 
 export default {
   components: {
@@ -40,6 +43,7 @@ export default {
     Partners,
     StaggeredTextImage,
     ItemsSlider,
+    CardsRow,
   },
 
   data() {
@@ -101,6 +105,44 @@ export default {
         require('@/assets/partners/cl-logo4.png'),
         require('@/assets/partners/cl-logo5.png'),
         require('@/assets/partners/cl-logo6.png'),
+      ],
+
+      serviceCards: [
+        {
+          image: require('@/assets/images/post-train.jpg'),
+          title: 'Convoyage',
+          description:
+            'Etudes, réalisation, intégration et modification de convoyeur à structure aluminium.',
+          ctaLink: '',
+        },
+        {
+          image: require('@/assets/images/post-cargo.jpg'),
+          title: 'Convoyage',
+          description:
+            'Etudes, réalisation, intégration et modification de convoyeur à structure aluminium.',
+          ctaLink: '',
+        },
+        {
+          image: require('@/assets/images/post-wind-turbine.jpg'),
+          title: 'Convoyage',
+          description:
+            'Etudes, réalisation, intégration et modification de convoyeur à structure aluminium.',
+          ctaLink: '',
+        },
+        {
+          image: require('@/assets/images/post-work-complex.jpg'),
+          title: 'Convoyage',
+          description:
+            'Etudes, réalisation, intégration et modification de convoyeur à structure aluminium.',
+          ctaLink: '',
+        },
+        {
+          image: require('@/assets/images/post-desert-mining.jpg'),
+          title: 'Convoyage',
+          description:
+            'Etudes, réalisation, intégration et modification de convoyeur à structure aluminium.',
+          ctaLink: '',
+        },
       ],
     }
   },
