@@ -19,7 +19,7 @@
 
     <img
       :class="[
-        'w-full lg:w-2/5 h-auto rounded-md',
+        'w-full lg:w-2/5 h-full object-contain rounded-md',
         inverted ? 'mb-8 lg:mb-0' : '',
       ]"
       :src="image"

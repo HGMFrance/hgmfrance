@@ -8,7 +8,7 @@
       <img
         v-for="(image, i) in images"
         :key="`image-${i}`"
-        class="px-3 py-3 mr-6 inline-block w-40 h-auto rounded-md border bg-white border-gray-100"
+        class="inline-block object-contain px-3 py-3 mr-6 w-40 h-full rounded-md border bg-white border-gray-100"
         :src="image"
         alt=""
       />
