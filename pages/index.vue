@@ -15,6 +15,8 @@
       :inverted="true"
     />
 
+    <ItemsSlider title="Nos derniers projets" :slides="projectsSlides" />
+
     <Partners :images="partners" />
 
     <ContactBanner
@@ -29,9 +31,16 @@ import Carousel from '@/components/Carousel'
 import ContactBanner from '@/components/ContactBanner'
 import Partners from '@/components/Partners'
 import StaggeredTextImage from '@/components/StaggeredTextImage'
+import ItemsSlider from '@/components/ItemsSlider'
 
 export default {
-  components: { Carousel, ContactBanner, Partners, StaggeredTextImage },
+  components: {
+    Carousel,
+    ContactBanner,
+    Partners,
+    StaggeredTextImage,
+    ItemsSlider,
+  },
 
   data() {
     return {
@@ -60,6 +69,29 @@ export default {
           description:
             'Aliquam arcu eros, mattis vitae tellus sit amet, commodo dignissim neque.',
           learnMoreLink: 'https://google.com/',
+        },
+      ],
+
+      projectsSlides: [
+        {
+          image: 'http://demo.themenio.com/industrial/image/work-sm-b.jpg',
+          title: 'Wind Turbine',
+        },
+        {
+          image: 'http://demo.themenio.com/industrial/image/work-sm-a.jpg',
+          title: 'Altria Warehouse Complex',
+        },
+        {
+          image: 'http://demo.themenio.com/industrial/image/work-sm-c.jpg',
+          title: 'Apollo Hill Project',
+        },
+        {
+          image: 'http://demo.themenio.com/industrial/image/work-sm-e.jpg',
+          title: 'Rocky Forge Refinary',
+        },
+        {
+          image: 'http://demo.themenio.com/industrial/image/work-sm-f.jpg',
+          title: 'Mingo Village Mining',
         },
       ],
 
