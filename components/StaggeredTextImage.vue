@@ -59,4 +59,9 @@ export default {
 .text >>> p {
   @apply mb-4 font-normal text-base text-gray-700;
 }
+
+.text >>> ul {
+  @apply pl-8 text-gray-700;
+  list-style-type: circle;
+}
 </style>

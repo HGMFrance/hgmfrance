@@ -12,14 +12,9 @@
             {{ slide.description }}
           </p>
 
-          <a
-            class="learn-more-cta"
-            :href="slide.learnMoreLink"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <nuxt-link :to="slide.learnMoreLink" class="learn-more-cta">
             En savoir plus
-          </a>
+          </nuxt-link>
         </div>
       </div>
     </div>
@@ -42,6 +37,7 @@ export default {
   components: { ChevronLeft, ChevronRight },
 
   props: {
+    /** @type {import('vue').PropType<{ image: string; textColor: string; title: string; description: string; learnMoreLink: string; }[]>} */
     slides: {
       type: Array,
       required: true,
@@ -155,11 +151,16 @@ export default {
 }
 
 .slide-title {
-  @apply mb-6 text-2xl lg:text-4xl font-bold uppercase leading-tight;
+  text-shadow: 1px 1px #333;
+  @apply mb-8 text-2xl lg:text-4xl font-bold uppercase leading-tight;
 }
 
 .slide-description {
-  @apply mb-12 text-base lg:text-lg font-normal;
+  text-shadow: 1px 1px #333;
+  @apply mb-12;
+  @apply text-base;
+  @apply lg:text-lg;
+  @apply font-normal;
 }
 
 .learn-more-cta {

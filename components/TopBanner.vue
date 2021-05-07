@@ -4,7 +4,7 @@
       class="lg:max-w-5xl xl:max-w-7xl mx-auto px-8 sm:px-16 flex flex-col sm:flex-row justify-between items-center text-sm"
     >
       <!-- Left part -->
-      <ul class="mb-2 sm:mb-0 flex flex-row">
+      <ul class="hidden lg:flex flex-row mb-2 sm:mb-0">
         <li class="mr-4">Contact</li>
         <li>News</li>
       </ul>

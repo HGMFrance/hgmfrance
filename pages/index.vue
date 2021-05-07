@@ -3,27 +3,31 @@
     <Carousel :slides="slides" />
 
     <StaggeredTextImage
-      title="Nous sommes une équipe de professionnels qui vous aideront pour mener à bien votre projet."
-      text="<p>Vivamus finibus accumsan ultricies orem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend consequat metus, ac egestas tortor placerat vehicula. Nulla tincidunt risus nisl, sed iaculis elit dapibus id. Suspendisse quis lorem nibh. Fusce a magna sollicitudin, semper justo a sagittis.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curay. Fusce a magna sollicitudin, semper justo a sagittis est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curay.</p>"
-      image="http://demo.themenio.com/industrial/image/photo-sm-main-c.jpg"
+      title="Solutions de contrôle et d'inspection"
+      text="<p>Créée en 2013, H.G.M. conçoit et fabrique des solutions de contrôle et d'inspection pour l'industrie pharmaceutique, cosmétique et agro-alimentaire.</p><p>Fort de plusieurs années d'expérience dans différents secteurs, chaque machine est conçue et développée pour répondre aux attentes de ses clients et accroître qualité et performance.</p>"
+      :image="images.convoyeur"
     />
 
     <StaggeredTextImage
-      title="Nous fournissons des solutions innovantes pour un progrès durable."
-      text="<p>Vivamus finibus accumsan ultricies orem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend consequat metus, ac egestas tortor placerat vehicula. Nulla tincidunt risus nisl, sed iaculis elit dapibus id. Suspendisse quis lorem nibh. Fusce a magna sollicitudin, semper justo a sagittis.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curay. Fusce a magna sollicitudin, semper justo a sagittis est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curay.</p>"
-      image="http://demo.themenio.com/industrial/image/post-thumb-b.jpg"
-      :inverted="true"
+      inverted
+      title="Des solutions complètes clés en main"
+      :text="`
+        <p>A chaque produit, implantation ou besoin, nous vous proposons une solution complète clé en main comme :</p>
+        <ul>
+          <li>Machine complète standards ou spécifiques</li>
+          <li>Intégration de vision dans les machines existantes (étiqueteuse, bouchonneuse, etc.)</li>
+          <li>Développement soft et programmation</li>
+          <li>Service-après-vente et maintenance à distance</li>
+        </ul>
+      `"
+      :image="images.eos"
     />
 
     <CardsRow title="Nos services" :cards="serviceCards" />
 
-    <ItemsSlider title="Nos derniers projets" :slides="projectsSlides" />
-
-    <Partners :images="partners" />
-
     <ContactBanner
-      title="Vous recherchez une solution adéquate pour votre entreprise?"
-      subtitle="Contactez-nous dès aujourd'hui pour une consultation gratuite ou plus d'informations."
+      title="N'hésitez pas à nous confier votre projet."
+      subtitle="Relevés de côtes sur site, proposition de solution et/ou modification, installation et mise en place sur site."
     />
   </div>
 </template>
@@ -31,117 +35,64 @@
 <script>
 import Carousel from '@/components/Carousel'
 import ContactBanner from '@/components/ContactBanner'
-import Partners from '@/components/Partners'
 import StaggeredTextImage from '@/components/StaggeredTextImage'
-import ItemsSlider from '@/components/ItemsSlider'
 import CardsRow from '@/components/CardsRow'
+
+import ConvoyeurImg from '@/assets/images/hgm/convoyeur-1.jpeg'
+import EOSImg from '@/assets/images/hgm/machine-eos.jpeg'
 
 export default {
   components: {
     Carousel,
     ContactBanner,
-    Partners,
     StaggeredTextImage,
-    ItemsSlider,
     CardsRow,
   },
 
   data() {
     return {
+      images: {
+        convoyeur: ConvoyeurImg,
+        eos: EOSImg,
+      },
+
       slides: [
         {
-          image: require('@/assets/images/slider-mine.jpg'),
-          title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+          image: require('@/assets/images/hgm/guidage-reglable.jpeg'),
+          title: 'Convoyeur à guidage réglable',
           textColor: 'white',
           description:
-            'Aliquam arcu eros, mattis vitae tellus sit amet, commodo dignissim neque.',
-          learnMoreLink: 'https://google.com/',
+            'Comme les produits de nos clients, les lignes de conditionnement évoluent. HGM vous accompagne sur les modifications, améliorations et aménagements de vos convoyeurs.',
+          learnMoreLink: '/',
         },
         {
-          image: require('@/assets/images/slider-oil.jpg'),
-          title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-          textColor: 'dark',
-          description:
-            'Aliquam arcu eros, mattis vitae tellus sit amet, commodo dignissim neque.',
-          learnMoreLink: 'https://google.com/',
-        },
-        {
-          image: require('@/assets/images/slider-welding.jpg'),
-          title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+          image: require('@/assets/images/hgm/controle-etiqueteuse.jpeg'),
+          title: 'Contrôle vision',
           textColor: 'white',
           description:
-            'Aliquam arcu eros, mattis vitae tellus sit amet, commodo dignissim neque.',
-          learnMoreLink: 'https://google.com/',
+            "Spécialisé dans le contrôle par vision, HGM intègre électriquement et mécaniquement des solutions d'inspection pas caméras ou capteurs sur vos lignes de conditionnement.",
+          learnMoreLink: '/',
         },
-      ],
-
-      projectsSlides: [
-        {
-          image: require('@/assets/images/post-wind-turbine.jpg'),
-          title: 'Wind Turbine',
-        },
-        {
-          image: require('@/assets/images/post-work-complex.jpg'),
-          title: 'Altria Warehouse Complex',
-        },
-        {
-          image: require('@/assets/images/post-train.jpg'),
-          title: 'Apollo Hill Project',
-        },
-        {
-          image: require('@/assets/images/post-desert-mining.jpg'),
-          title: 'Rocky Forge Refinary',
-        },
-        {
-          image: require('@/assets/images/post-cargo.jpg'),
-          title: 'Mingo Village Mining',
-        },
-      ],
-
-      partners: [
-        require('@/assets/partners/cl-logo1.png'),
-        require('@/assets/partners/cl-logo2.png'),
-        require('@/assets/partners/cl-logo3.png'),
-        require('@/assets/partners/cl-logo4.png'),
-        require('@/assets/partners/cl-logo5.png'),
-        require('@/assets/partners/cl-logo6.png'),
       ],
 
       serviceCards: [
         {
-          image: require('@/assets/images/post-train.jpg'),
-          title: 'Convoyage',
+          image: require('@/assets/images/hgm/machine-eos-3d.png'),
+          title: 'Conception mécanique CAO en 3D',
           description:
             'Etudes, réalisation, intégration et modification de convoyeur à structure aluminium.',
-          ctaLink: '',
         },
         {
-          image: require('@/assets/images/post-cargo.jpg'),
-          title: 'Convoyage',
+          image: require('@/assets/images/hgm/vis-regroupement.png'),
+          title: 'Conception des automatismes',
           description:
             'Etudes, réalisation, intégration et modification de convoyeur à structure aluminium.',
-          ctaLink: '',
         },
         {
-          image: require('@/assets/images/post-wind-turbine.jpg'),
-          title: 'Convoyage',
+          image: require('@/assets/images/hgm/guidage-transfert.png'),
+          title: 'Mise en service des installations et formation du personnel',
           description:
             'Etudes, réalisation, intégration et modification de convoyeur à structure aluminium.',
-          ctaLink: '',
-        },
-        {
-          image: require('@/assets/images/post-work-complex.jpg'),
-          title: 'Convoyage',
-          description:
-            'Etudes, réalisation, intégration et modification de convoyeur à structure aluminium.',
-          ctaLink: '',
-        },
-        {
-          image: require('@/assets/images/post-desert-mining.jpg'),
-          title: 'Convoyage',
-          description:
-            'Etudes, réalisation, intégration et modification de convoyeur à structure aluminium.',
-          ctaLink: '',
         },
       ],
     }

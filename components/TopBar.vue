@@ -3,11 +3,13 @@
     <div
       class="lg:max-w-5xl xl:max-w-7xl mx-auto px-8 sm:px-16 flex flex-row justify-between items-center text-sm tracking-tight font-medium"
     >
-      <img
-        class="inline-block h-8 w-auto"
-        src="http://demo.themenio.com/industrial/image/logo2x.png"
-        alt=""
-      />
+      <nuxt-link to="/" class="inline-block w-auto h-auto">
+        <img
+          class="inline-block h-8 w-auto"
+          src="@/assets/logo/hgm-logo-black-no-padding.png"
+          alt=""
+        />
+      </nuxt-link>
 
       <ul class="flex flex-row items-center">
         <li class="mr-4">Convoyeurs</li>

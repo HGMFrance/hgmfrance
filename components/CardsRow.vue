@@ -22,9 +22,9 @@
 
         <p class="mb-4 text-gray-700">{{ card.description }}</p>
 
-        <a class="text-red-600 font-medium" :href="card.ctaLink">
+        <!-- <a class="text-red-600 font-medium" :href="card.ctaLink">
           En savoir plus
-        </a>
+        </a> -->
       </div>
     </div>
   </section>

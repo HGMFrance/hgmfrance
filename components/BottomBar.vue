@@ -5,9 +5,9 @@
     <div class="max-w-5xl mx-auto flex flex-col md:flex-row text-white">
       <div class="w-full md:w-64 mr-16 mb-10 md:mb-0">
         <img
-          class="block w-10 mb-4"
+          class="block w-16 h-auto mb-4"
           alt=""
-          src="@/assets/logo/logo-white.png"
+          src="@/assets/logo/hgm-white-transparent.png"
         />
 
         <p class="mb-4 text-sm">
@@ -21,7 +21,7 @@
 
         <p class="flex items-center font-medium text-gray-100 underline">
           <Phone class="h-5 w-auto mr-2" />
-          <a href="tel:+33642871966">+33 6 42 87 19 66</a>
+          <a href="tel:+33164707734">+33 1 64 70 77 34</a>
         </p>
       </div>
 
@@ -63,7 +63,7 @@
       </div>
 
       <div class="w-full md:w-40 mr-16 mb-10 md:mb-0">
-        <h4 class="mb-3 font-bold text-xl">Services</h4>
+        <!-- <h4 class="mb-3 font-bold text-xl">Services</h4>
 
         <ul>
           <li class="my-2">
@@ -108,7 +108,7 @@
               Service #5
             </p>
           </li>
-        </ul>
+        </ul> -->
       </div>
 
       <div class="w-full md:w-56">
@@ -118,8 +118,7 @@
         <p>3 Rue Paul Tavernier</p>
         <p class="mb-3">77300 Fontainebleau, FR</p>
 
-        <p>Tél. fixe: +33 6 42 87 19 66</p>
-        <p>Tél. mobile: +33 6 42 87 19 66</p>
+        <p>Tél. fixe: +33 1 64 70 77 34</p>
       </div>
     </div>
   </footer>

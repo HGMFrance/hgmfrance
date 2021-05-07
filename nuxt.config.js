@@ -17,7 +17,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          '[DÉVELOPPEMENT] Conception, fabrication et réalisation de systèmes pour lignes de conditionnement incluant le convoyage, le contrôle vision ou des machines spéciales.',
+          'Conception, fabrication et réalisation de systèmes pour lignes de conditionnement incluant le convoyage, le contrôle vision ou des machines spéciales.',
       },
       {
         hid: 'og:url',
@@ -39,12 +39,12 @@ export default {
         hid: 'og:description',
         property: 'og:description',
         content:
-          '[DÉVELOPPEMENT] Conception, fabrication et réalisation de systèmes pour lignes de conditionnement incluant le convoyage, le contrôle vision ou des machines spéciales.',
+          'Conception, fabrication et réalisation de systèmes pour lignes de conditionnement incluant le convoyage, le contrôle vision ou des machines spéciales.',
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'http://demo.themenio.com/industrial/image/post-thumb-c.jpg',
+        content: 'https://hgmfrance.totominc.io/og-image.jpg',
       },
     ],
 
