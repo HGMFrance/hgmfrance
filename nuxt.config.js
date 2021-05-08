@@ -2,6 +2,11 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  server: {
+    // Allow access from local network.
+    host: '0.0.0.0',
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'H.G.M. France',
