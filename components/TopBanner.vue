@@ -4,29 +4,26 @@
       class="lg:max-w-5xl xl:max-w-7xl mx-auto px-8 sm:px-16 flex flex-col sm:flex-row justify-between items-center text-sm"
     >
       <!-- Left part -->
-      <ul class="hidden lg:flex flex-row mb-2 sm:mb-0">
-        <li class="mr-4">Contact</li>
-        <li>News</li>
-      </ul>
+      <ul class="hidden lg:flex flex-row mb-2 sm:mb-0"></ul>
 
       <!-- Right part -->
       <ul class="flex flex-col sm:flex-row items-center sm:items-start">
         <li class="sm:mr-4 mb-1 sm:mb-0">
           <MailSmall
-            class="inline-block h-4 w-auto text-blue-900"
+            class="inline-block h-4 w-auto text-blue-700"
             src="~assets/heroicons/mail-small.svg"
             alt=""
           />
-          contact@hgmfrance.com
+          <a href="mailto:contact@hgmfrance.com">contact@hgmfrance.com</a>
         </li>
 
         <li>
           <PhoneSmall
-            class="inline-block h-4 w-auto text-blue-900"
+            class="inline-block h-4 w-auto text-blue-700"
             src="~assets/heroicons/phone-small.svg"
             alt=""
           />
-          +33 6 42 87 19 66
+          <a href="tel:+33164707734">+33 1 64 70 77 34</a>
         </li>
       </ul>
     </div>

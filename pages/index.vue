@@ -58,11 +58,27 @@ export default {
 
       slides: [
         {
+          image: require('@/assets/images/hgm/guidage-convoyeur.jpeg'),
+          title: 'Solutions de convoyage',
+          textColor: 'white',
+          description:
+            "Convoyage et manutention de charges légères des emballages primaires et secondaires. Convoyeurs a structure inox pour l'industrie pharmacetique, cosmétique et agro-alimentaire.",
+          learnMoreLink: '/',
+        },
+        {
           image: require('@/assets/images/hgm/guidage-reglable.jpeg'),
-          title: 'Convoyeur à guidage réglable',
+          title: 'Guidage réglable pour convoyeur',
           textColor: 'white',
           description:
             'Comme les produits de nos clients, les lignes de conditionnement évoluent. HGM vous accompagne sur les modifications, améliorations et aménagements de vos convoyeurs.',
+          learnMoreLink: '/',
+        },
+        {
+          image: require('@/assets/images/hgm/manipulation-mise-au-pas.jpeg'),
+          title: 'Manipulation en continu',
+          textColor: 'white',
+          description:
+            'Nous concevons et réalisons chacune de nos machines spéciales en partenariat avec nos clients suivant leurs besoins et attentes. Mise au pas, regroupement, espacement...',
           learnMoreLink: '/',
         },
         {
@@ -70,7 +86,7 @@ export default {
           title: 'Contrôle vision',
           textColor: 'white',
           description:
-            "Spécialisé dans le contrôle par vision, HGM intègre électriquement et mécaniquement des solutions d'inspection pas caméras ou capteurs sur vos lignes de conditionnement.",
+            "Spécialisé dans le contrôle par vision, HGM intègre électriquement et mécaniquement des solutions d'inspection par caméras ou capteurs sur vos lignes de conditionnement.",
           learnMoreLink: '/',
         },
       ],

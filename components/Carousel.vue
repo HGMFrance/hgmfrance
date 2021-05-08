@@ -6,15 +6,17 @@
       :class="['slide-container', currentSlide === i ? 'active' : '']"
     >
       <div class="slide" :style="{ 'background-image': `url(${slide.image})` }">
+        <div class="slide-backdrop"></div>
+
         <div class="slide-content-container">
           <h2 :class="['slide-title', slide.textColor]">{{ slide.title }}</h2>
           <p :class="['slide-description', slide.textColor]">
             {{ slide.description }}
           </p>
 
-          <nuxt-link :to="slide.learnMoreLink" class="learn-more-cta">
+          <!-- <nuxt-link :to="slide.learnMoreLink" class="learn-more-cta">
             En savoir plus
-          </nuxt-link>
+          </nuxt-link> -->
         </div>
       </div>
     </div>
@@ -63,9 +65,9 @@ export default {
 
   methods: {
     setInterval() {
-      this.interval = setInterval(() => {
-        this.changeSlide('forward')
-      }, 10000)
+      // this.interval = setInterval(() => {
+      //   this.changeSlide('forward')
+      // }, 10000)
     },
 
     changeSlide(direction) {
@@ -123,6 +125,18 @@ export default {
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
+.slide-backdrop {
+  z-index: 0;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.15);
+  pointer-events: none;
+}
+
 .slide-container.active {
   transform: translateX(0rem);
   opacity: 1;
@@ -141,6 +155,7 @@ export default {
 }
 
 .slide-content-container {
+  z-index: 1;
   width: 100%;
   padding: 0 2rem;
 
@@ -151,12 +166,12 @@ export default {
 }
 
 .slide-title {
-  text-shadow: 1px 1px #333;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.33);
   @apply mb-8 text-2xl lg:text-4xl font-bold uppercase leading-tight;
 }
 
 .slide-description {
-  text-shadow: 1px 1px #333;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.33);
   @apply mb-12;
   @apply text-base;
   @apply lg:text-lg;
@@ -164,7 +179,7 @@ export default {
 }
 
 .learn-more-cta {
-  @apply px-6 py-3 mr-6 rounded-sm text-white font-medium bg-blue-900;
+  @apply px-6 py-3 mr-6 rounded-sm text-white font-medium bg-blue-700 transition-all hover:bg-blue-800;
 }
 
 .chevron {

@@ -40,7 +40,7 @@
             </a>
           </li>
 
-          <li class="my-2">
+          <!-- <li class="my-2">
             <a
               class="flex flex-row items-center font-medium text-gray-100 underline"
               href="#"
@@ -48,7 +48,7 @@
               <ChevronRightSmall class="h-5 w-auto" />
               Convoyeurs
             </a>
-          </li>
+          </li> -->
 
           <li class="my-2">
             <a
