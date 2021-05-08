@@ -65,9 +65,9 @@ export default {
 
   methods: {
     setInterval() {
-      // this.interval = setInterval(() => {
-      //   this.changeSlide('forward')
-      // }, 10000)
+      this.interval = setInterval(() => {
+        this.changeSlide('forward')
+      }, 10000)
     },
 
     changeSlide(direction) {
