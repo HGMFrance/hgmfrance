@@ -51,13 +51,13 @@
           </li> -->
 
           <li class="my-2">
-            <a
+            <nuxt-link
               class="flex flex-row items-center font-medium text-gray-100 underline"
-              href="#"
+              to="/contact"
             >
               <ChevronRightSmall class="h-5 w-auto" />
               Contact
-            </a>
+            </nuxt-link>
           </li>
         </ul>
       </div>

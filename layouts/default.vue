@@ -43,4 +43,14 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
+
+/* Fix for iOS input inner box-shadow */
+/* https://stackoverflow.com/a/23211766/3669565 */
+input[type="text"],
+input[type="tel"],
+textarea[type="text"] {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
 </style>

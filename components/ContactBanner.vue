@@ -16,12 +16,12 @@
         </p>
       </div>
 
-      <a
+      <nuxt-link
         class="inline-flex items-center justify-center px-8 py-3 border-2 rounded-sm border-white font-medium text-sm uppercase transition hover:bg-white hover:text-blue-900"
-        href="#"
+        to="/contact"
       >
         Contactez-nous
-      </a>
+      </nuxt-link>
     </div>
   </section>
 </template>
