@@ -55,7 +55,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="postcss" scoped>
 .text >>> p {
   @apply mb-4 font-normal text-base text-gray-700;
 }
