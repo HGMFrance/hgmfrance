@@ -30,25 +30,24 @@
 
         <ul>
           <li class="my-2">
-            <a
-              aria-current="page"
+            <nuxt-link
               class="flex flex-row items-center font-medium text-gray-100 underline"
-              href="/"
+              to="/"
             >
               <ChevronRightSmall class="h-5 w-auto" />
               Accueil
-            </a>
+            </nuxt-link>
           </li>
 
-          <!-- <li class="my-2">
-            <a
+          <li class="my-2">
+            <nuxt-link
               class="flex flex-row items-center font-medium text-gray-100 underline"
-              href="#"
+              to="/actualites"
             >
               <ChevronRightSmall class="h-5 w-auto" />
-              Convoyeurs
-            </a>
-          </li> -->
+              Actualités
+            </nuxt-link>
+          </li>
 
           <li class="my-2">
             <nuxt-link

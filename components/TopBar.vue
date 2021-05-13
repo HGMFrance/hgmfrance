@@ -12,7 +12,12 @@
       </nuxt-link>
 
       <ul class="flex flex-row items-center">
-        <!-- <li class="mr-4">Convoyeurs</li> -->
+        <li class="mr-4">
+          <nuxt-link to="/actualites">
+            Actualités
+          </nuxt-link>
+        </li>
+
         <li
           class="px-6 py-2 rounded-sm text-white bg-blue-700 cursor-pointer transition-all hover:bg-blue-800"
         >
