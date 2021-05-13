@@ -5,7 +5,13 @@
       :key="`slide-${i}`"
       :class="['slide-container', currentSlide === i ? 'active' : '']"
     >
-      <div class="slide" :style="{ 'background-image': `url(${slide.image})` }">
+      <div
+        class="slide"
+        :style="{
+          'background-image': `url(${slide.image})`,
+          'background-position': slide.backgroundPosition || undefined,
+        }"
+      >
         <div class="slide-backdrop"></div>
 
         <div class="slide-content-container">
@@ -13,10 +19,6 @@
           <p :class="['slide-description', slide.textColor]">
             {{ slide.description }}
           </p>
-
-          <!-- <nuxt-link :to="slide.learnMoreLink" class="learn-more-cta">
-            En savoir plus
-          </nuxt-link> -->
         </div>
       </div>
     </div>
@@ -39,7 +41,7 @@ export default {
   components: { ChevronLeft, ChevronRight },
 
   props: {
-    /** @type {import('vue').PropType<{ image: string; textColor: string; title: string; description: string; learnMoreLink: string; }[]>} */
+    /** @type {import('vue').PropType<{ image: string; textColor: string; title: string; description: string; backgroundPosition?: string; }[]>} */
     slides: {
       type: Array,
       required: true,

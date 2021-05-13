@@ -63,7 +63,7 @@ export default {
           textColor: 'white',
           description:
             "Convoyage et manutention de charges légères des emballages primaires et secondaires. Convoyeurs a structure inox pour l'industrie pharmaceutique, cosmétique et agro-alimentaire.",
-          learnMoreLink: '/',
+          backgroundPosition: 'right',
         },
         {
           image: require('@/assets/images/hgm/guidage-reglable.jpeg'),
@@ -71,7 +71,6 @@ export default {
           textColor: 'white',
           description:
             'Comme les produits de nos clients, les lignes de conditionnement évoluent. HGM vous accompagne sur les modifications, améliorations et aménagements de vos convoyeurs.',
-          learnMoreLink: '/',
         },
         {
           image: require('@/assets/images/hgm/manipulation-mise-au-pas.jpeg'),
@@ -79,7 +78,6 @@ export default {
           textColor: 'white',
           description:
             'Nous concevons et réalisons chacune de nos machines spéciales en partenariat avec nos clients suivant leurs besoins et attentes. Mise au pas, regroupement, espacement...',
-          learnMoreLink: '/',
         },
         {
           image: require('@/assets/images/hgm/controle-etiqueteuse.jpeg'),
@@ -87,7 +85,6 @@ export default {
           textColor: 'white',
           description:
             "Spécialisé dans le contrôle par vision, HGM intègre électriquement et mécaniquement des solutions d'inspection par caméras ou capteurs sur vos lignes de conditionnement.",
-          learnMoreLink: '/',
         },
       ],
 
