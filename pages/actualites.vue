@@ -6,17 +6,39 @@
       </section>
 
       <section class="relative lg:mx-auto lg:max-w-screen-lg pb-12">
-        <div class="flex">
-          <div class="flex items-center justify-center w-1/2">
-            <img class="block h-auto w-80 p-4 shadow-sm rounded-md" src="@/assets/images/cfia-2021.png" />
+        <div class="flex flex-col lg:flex-row w-full mb-12">
+          <div class="flex items-center justify-center w-full lg:w-1/2 mb-8 lg:mb-0">
+            <img class="block h-auto w-56 lg:w-80 p-4 rounded-md" src="@/assets/images/salons/cfia-2021.png" />
           </div>
 
-          <div class="w-1/2">
-            <h2 class="mb-6 text-blue-900 text-2xl max-w-xl leading-tight font-medium">
-              Salon CFIA Rennes 2021
+          <div class="flex items-center justify-center w-full lg:w-1/2">
+            <h2 class="text-blue-900 text-center text-3xl lg:text-4xl max-w-xl leading-tight font-medium">
+              Du 9 au 11 Juin
             </h2>
+          </div>
+        </div>
 
-            <p>Nous serons présents sur le salon CFIA 2021 à Rennes.</p>
+        <div class="flex flex-col lg:flex-row w-full mb-12">
+          <div class="flex items-center justify-center w-full lg:w-1/2 mb-8 lg:mb-0">
+            <img class="block h-auto w-56 lg:w-80 p-4 rounded-md" src="@/assets/images/salons/alina-2021.png" />
+          </div>
+
+          <div class="flex items-center justify-center w-full lg:w-1/2">
+            <h2 class="text-blue-900 text-center text-3xl lg:text-4xl max-w-xl leading-tight font-medium">
+              Du 28 au 30 Septembre
+            </h2>
+          </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row w-full mb-12">
+          <div class="flex items-center justify-center w-full lg:w-1/2 mb-8 lg:mb-0">
+            <img class="block h-auto w-56 lg:w-80 p-4 rounded-md" src="@/assets/images/salons/prod-and-pack-2021.png" />
+          </div>
+
+          <div class="flex items-center justify-center w-full lg:w-1/2">
+            <h2 class="text-blue-900 text-center text-3xl lg:text-4xl max-w-xl leading-tight font-medium">
+              Novembre
+            </h2>
           </div>
         </div>
       </section>
