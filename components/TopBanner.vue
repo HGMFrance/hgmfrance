@@ -14,7 +14,7 @@
             src="~assets/heroicons/mail-small.svg"
             alt=""
           />
-          <a href="mailto:contact@hgmfrance.com">contact@hgmfrance.com</a>
+          <a class="link-item" href="mailto:contact@hgmfrance.com">contact@hgmfrance.com</a>
         </li>
 
         <li>
@@ -23,7 +23,7 @@
             src="~assets/heroicons/phone-small.svg"
             alt=""
           />
-          <a href="tel:+33164707734">+33 1 64 70 77 34</a>
+          <a class="link-item" href="tel:+33164707734">+33 1 64 70 77 34</a>
         </li>
       </ul>
     </div>
@@ -38,3 +38,9 @@ export default {
   components: { MailSmall, PhoneSmall },
 }
 </script>
+
+<style lang="postcss" scoped>
+.link-item {
+  @apply font-source;
+}
+</style>
