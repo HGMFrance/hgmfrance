@@ -103,7 +103,7 @@ export default {
         },
         {
           image: require('@/assets/images/hgm/guidage-transfert.png'),
-          title: 'Mise en service des installations',
+          title: 'Installation sur site',
           description:
             'Livraison, montage et câblage sur site, formation du personnel.',
         },
