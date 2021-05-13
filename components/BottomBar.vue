@@ -1,7 +1,5 @@
 <template>
-  <footer
-    class="footer-component py-12 px-8 bg-gradient-to-br from-gray-800 to-gray-900"
-  >
+  <footer class="py-12 px-8 bg-gradient-to-br from-gray-800 to-gray-900">
     <div class="max-w-5xl mx-auto flex flex-col md:flex-row text-white">
       <div class="w-full md:w-64 mr-16 mb-10 md:mb-0">
         <img
@@ -14,46 +12,37 @@
           Conception de systèmes pour lignes de conditionnement.
         </p>
 
-        <p class="flex items-center mb-4 font-medium text-gray-100 underline">
-          <Mail class="h-5 w-auto mr-2" />
+        <p class="contact-item mb-4">
+          <Mail class="contact-icon" />
           <a href="mailto:contact@hgmfrance.fr">contact@hgmfrance.fr</a>
         </p>
 
-        <p class="flex items-center font-medium text-gray-100 underline">
-          <Phone class="h-5 w-auto mr-2" />
+        <p class="contact-item">
+          <Phone class="contact-icon" />
           <a href="tel:+33164707734">+33 1 64 70 77 34</a>
         </p>
       </div>
 
       <div class="w-full md:w-40 mr-16 mb-10 md:mb-0">
-        <h4 class="mb-3 font-bold text-xl">Navigation</h4>
+        <h4 class="category-title">Navigation</h4>
 
         <ul>
           <li class="my-2">
-            <nuxt-link
-              class="flex flex-row items-center font-medium text-gray-100 underline"
-              to="/"
-            >
+            <nuxt-link class="navigation-link" to="/">
               <ChevronRightSmall class="h-5 w-auto" />
               Accueil
             </nuxt-link>
           </li>
 
           <li class="my-2">
-            <nuxt-link
-              class="flex flex-row items-center font-medium text-gray-100 underline"
-              to="/actualites"
-            >
+            <nuxt-link class="navigation-link" to="/actualites">
               <ChevronRightSmall class="h-5 w-auto" />
               Actualités
             </nuxt-link>
           </li>
 
           <li class="my-2">
-            <nuxt-link
-              class="flex flex-row items-center font-medium text-gray-100 underline"
-              to="/contact"
-            >
+            <nuxt-link class="navigation-link" to="/contact">
               <ChevronRightSmall class="h-5 w-auto" />
               Contact
             </nuxt-link>
@@ -61,57 +50,10 @@
         </ul>
       </div>
 
-      <div class="w-full md:w-40 mr-16 mb-10 md:mb-0">
-        <!-- <h4 class="mb-3 font-bold text-xl">Services</h4>
-
-        <ul>
-          <li class="my-2">
-            <p
-              class="flex flex-row items-center mb-1 font-medium text-gray-100"
-            >
-              <ChevronRightSmall class="h-5 w-auto" />
-              Service #1
-            </p>
-          </li>
-
-          <li class="my-2">
-            <p
-              class="flex flex-row items-center mb-1 font-medium text-gray-100"
-            >
-              <ChevronRightSmall class="h-5 w-auto" />
-              Service #2
-            </p>
-          </li>
-
-          <li class="my-2">
-            <p
-              class="flex flex-row items-center mb-1 font-medium text-gray-100"
-            >
-              <ChevronRightSmall class="h-5 w-auto" />
-              Service #3
-            </p>
-          </li>
-
-          <li class="my-2">
-            <p
-              class="flex flex-row items-center mb-1 font-medium text-gray-100"
-            >
-              <ChevronRightSmall class="h-5 w-auto" />
-              Service #4
-            </p>
-          </li>
-
-          <li class="my-2">
-            <p class="flex flex-row items-center font-medium text-gray-100">
-              <ChevronRightSmall class="h-5 w-auto" />
-              Service #5
-            </p>
-          </li>
-        </ul> -->
-      </div>
+      <div class="w-full md:w-40 mr-16 mb-10 md:mb-0"></div>
 
       <div class="w-full md:w-56">
-        <h4 class="mb-3 font-bold text-xl">Contact</h4>
+        <h4 class="category-title">Contact</h4>
 
         <p class="mb-1 font-medium">H.G.M. France</p>
         <p>3 Rue Paul Tavernier</p>
@@ -132,3 +74,21 @@ export default {
   components: { ChevronRightSmall, Mail, Phone },
 }
 </script>
+
+<style lang="postcss" scoped>
+.category-title {
+  @apply mb-3 font-bold font-source text-xl;
+}
+
+.contact-item {
+  @apply flex items-center font-medium text-gray-100 underline;
+}
+
+.contact-icon {
+  @apply h-5 w-auto mr-2;
+}
+
+.navigation-link {
+  @apply flex flex-row items-center font-medium text-gray-100 underline;
+}
+</style>

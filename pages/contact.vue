@@ -115,7 +115,7 @@
                 <div class="relative w-full">
                   <label for="object" class="input-label">Objet</label>
 
-                  <select id="object" name="object" class="block min-w-full p-3 shadow-sm border rounded-sm border-gray-300 font-roboto font-medium text-gray-800 placeholder-gray-400 text-base transition outline-none focus:border-blue-500 focus:ring focus:ring-blue-200">
+                  <select id="object" name="object" class="block min-w-full max-w-full p-3 shadow-sm border rounded-sm border-gray-300 font-roboto font-medium text-gray-800 placeholder-gray-400 text-base transition outline-none focus:border-blue-500 focus:ring focus:ring-blue-200">
                     <option value="convoyage">Convoyage</option>
                     <option value="manipulation-produits">Manipulation de produits (mise au pas, regroupement)</option>
                     <option value="controle-vision">Contrôle par vision</option>

@@ -9,7 +9,7 @@
       ]"
     >
       <h2
-        class="mb-6 text-blue-900 text-2xl max-w-xl leading-tight font-medium"
+        class="mb-6 text-blue-900 text-2xl max-w-xl leading-tight font-bold font-source"
       >
         {{ title }}
       </h2>

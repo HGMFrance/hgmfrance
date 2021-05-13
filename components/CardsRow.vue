@@ -3,7 +3,7 @@
     class="lg:max-w-5xl xl:max-w-7xl px-8 sm:px-16 py-8 lg:py-16 mx-auto"
   >
     <h2
-      class="mb-8 text-center text-blue-900 text-2xl leading-tight font-medium"
+      class="mb-8 text-center text-blue-900 text-2xl leading-tight font-bold font-source"
     >
       {{ title }}
     </h2>
@@ -16,15 +16,11 @@
           alt=""
         />
 
-        <h3 class="mb-4 font-medium leading-normal text-xl text-blue-900">
+        <h3 class="mb-4 font-bold font-source leading-normal text-xl text-blue-900">
           {{ card.title }}
         </h3>
 
         <p class="mb-4 text-gray-700">{{ card.description }}</p>
-
-        <!-- <a class="text-red-600 font-medium" :href="card.ctaLink">
-          En savoir plus
-        </a> -->
       </div>
     </div>
   </section>

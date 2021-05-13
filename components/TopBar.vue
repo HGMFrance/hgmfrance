@@ -13,15 +13,21 @@
 
       <ul class="flex flex-row items-center">
         <li class="mr-4">
-          <nuxt-link to="/actualites">
+          <nuxt-link class="link-item" to="/actualites">
             Actualités
           </nuxt-link>
         </li>
 
         <li>
-          <nuxt-link class="px-6 py-2 rounded-sm text-white bg-blue-700 cursor-pointer transition-all hover:bg-blue-800" to="/contact">Contact</nuxt-link>
+          <nuxt-link class="px-6 py-2 rounded-sm font-bold font-source text-white bg-blue-700 cursor-pointer transition-all hover:bg-blue-800" to="/contact">Contact</nuxt-link>
         </li>
       </ul>
     </div>
   </nav>
 </template>
+
+<style lang="postcss" scoped>
+.link-item {
+  @apply font-source font-bold text-gray-700 transition-all hover:text-gray-800;
+}
+</style>

@@ -100,7 +100,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="postcss" scoped>
 .white {
   @apply text-white;
 }
@@ -169,7 +169,7 @@ export default {
 
 .slide-title {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.33);
-  @apply mb-8 text-2xl lg:text-4xl font-bold uppercase leading-tight;
+  @apply mb-8 text-2xl lg:text-4xl font-bold font-source uppercase leading-tight;
 }
 
 .slide-description {

@@ -7,6 +7,7 @@ module.exports = {
 
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
+        source: ['Source Sans Pro', 'sans-serif'],
       },
     },
   },

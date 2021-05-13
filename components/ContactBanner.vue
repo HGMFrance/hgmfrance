@@ -5,10 +5,11 @@
     >
       <div class="mb-4 lg:mb-0">
         <h3
-          class="mb-2 text-center lg:text-left font-medium leading-normal text-2xl"
+          class="mb-2 text-center lg:text-left font-bold font-source leading-normal text-2xl"
         >
           {{ title }}
         </h3>
+
         <p
           class="text-center lg:text-left font-normal leading-normal text-base"
         >
@@ -17,7 +18,7 @@
       </div>
 
       <nuxt-link
-        class="inline-flex items-center justify-center px-8 py-3 border-2 rounded-sm border-white font-medium text-sm uppercase transition hover:bg-white hover:text-blue-900"
+        class="inline-flex items-center justify-center px-8 py-3 border-2 rounded-sm border-white font-bold font-source text-sm uppercase transition hover:bg-white hover:text-blue-900"
         to="/contact"
       >
         Contactez-nous
