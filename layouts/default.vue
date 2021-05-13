@@ -1,5 +1,6 @@
 <template>
   <div id="nuxt-default-wrapper" class="font-roboto">
+    <AlertBanner text="Retrouvez-nous au CFIA avec notre partenaire TSEIN — Hall 5 Stand F36" />
     <TopBanner />
     <TopBar />
     <Nuxt />
@@ -13,6 +14,7 @@ import BottomBanner from '@/components/BottomBanner'
 import BottomBar from '@/components/BottomBar'
 import TopBanner from '@/components/TopBanner'
 import TopBar from '@/components/TopBar'
+import AlertBanner from '@/components/AlertBanner'
 
 export default {
   components: {
@@ -20,6 +22,7 @@ export default {
     BottomBar,
     TopBanner,
     TopBar,
+    AlertBanner,
   },
 }
 </script>
