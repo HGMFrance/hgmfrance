@@ -37,6 +37,21 @@
               <p class="mb-6 text-gray-900 text-lg font-medium">Envoyez-nous votre message</p>
 
               <div class="flex flex-col lg:flex-row mb-4">
+                <div class="relative w-full mb-4 lg:mb-0">
+                  <label for="company" class="input-label">Entreprise</label>
+
+                  <input
+                    id="company"
+                    class="input-contact w-full mb-4 lg:mb-0"
+                    name="company"
+                    label="Entreprise"
+                    type="text"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="flex flex-col lg:flex-row mb-4">
                 <div class="relative w-full lg:w-1/2 mb-4 lg:mb-0 lg:mr-2">
                   <label for="lastname" class="input-label">Nom</label>
 
@@ -98,12 +113,24 @@
 
               <div class="flex flex-col lg:flex-row mb-4">
                 <div class="relative w-full">
-                  <label for="subject" class="input-label">Sujet</label>
+                  <label for="object" class="input-label">Objet</label>
+
+                  <select id="object" name="object" class="block min-w-full p-3 shadow-sm border rounded-sm border-gray-300 font-roboto font-medium text-gray-800 placeholder-gray-400 text-base transition outline-none focus:border-blue-500 focus:ring focus:ring-blue-200">
+                    <option value="convoyage">Convoyage</option>
+                    <option value="manipulation-produits">Manipulation de produits (mise au pas, regroupement)</option>
+                    <option value="controle-vision">Contrôle par vision</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="flex flex-col lg:flex-row mb-4">
+                <div class="relative w-full">
+                  <label for="message" class="input-label">Message</label>
 
                   <textarea
-                    id="subject"
+                    id="message"
                     class="input-contact w-full mb-4 lg:mb-0 lg:mr-2"
-                    name="subject"
+                    name="message"
                     label=""
                     type="text"
                     required
