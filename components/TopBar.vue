@@ -18,10 +18,8 @@
           </nuxt-link>
         </li>
 
-        <li
-          class="px-6 py-2 rounded-sm text-white bg-blue-700 cursor-pointer transition-all hover:bg-blue-800"
-        >
-          <nuxt-link to="/contact">Contact</nuxt-link>
+        <li>
+          <nuxt-link class="px-6 py-2 rounded-sm text-white bg-blue-700 cursor-pointer transition-all hover:bg-blue-800" to="/contact">Contact</nuxt-link>
         </li>
       </ul>
     </div>
