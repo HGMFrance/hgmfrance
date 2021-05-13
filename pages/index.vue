@@ -14,7 +14,7 @@
       :text="`
         <p>A chaque produit, implantation ou besoin, nous vous proposons une solution complète clé en main comme :</p>
         <ul>
-          <li>Machine complète standards ou spécifiques</li>
+          <li>Machines complètes standards ou spécifiques</li>
           <li>Intégration de vision dans les machines existantes (étiqueteuse, bouchonneuse, etc.)</li>
           <li>Développement soft et programmation</li>
           <li>Service-après-vente et maintenance à distance</li>
@@ -62,7 +62,7 @@ export default {
           title: 'Solutions de convoyage',
           textColor: 'white',
           description:
-            "Convoyage et manutention de charges légères des emballages primaires et secondaires. Convoyeurs a structure inox pour l'industrie pharmacetique, cosmétique et agro-alimentaire.",
+            "Convoyage et manutention de charges légères des emballages primaires et secondaires. Convoyeurs a structure inox pour l'industrie pharmaceutique, cosmétique et agro-alimentaire.",
           learnMoreLink: '/',
         },
         {
@@ -94,21 +94,21 @@ export default {
       serviceCards: [
         {
           image: require('@/assets/images/hgm/machine-eos-3d.png'),
-          title: 'Conception mécanique CAO en 3D',
+          title: 'Conception mécanique',
           description:
-            'Etudes, réalisation, intégration et modification de convoyeur à structure aluminium.',
+            'Études, réalisation, intégration de convoyeurs, systèmes de manipulation et machines de contrôle.',
         },
         {
           image: require('@/assets/images/hgm/vis-regroupement.png'),
-          title: 'Conception des automatismes',
+          title: 'Conception électrique',
           description:
-            'Etudes, réalisation, intégration et modification de convoyeur à structure aluminium.',
+            'Études éléctriques, automatismes et programmation de systèmes de contrôle.',
         },
         {
           image: require('@/assets/images/hgm/guidage-transfert.png'),
-          title: 'Mise en service des installations et formation du personnel',
+          title: 'Mise en service des installations',
           description:
-            'Etudes, réalisation, intégration et modification de convoyeur à structure aluminium.',
+            'Livraison, montage et câblage sur site, formation du personnel.',
         },
       ],
     }
