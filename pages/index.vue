@@ -90,13 +90,13 @@ export default {
 
       serviceCards: [
         {
-          image: require('@/assets/images/hgm/machine-eos-3d.png'),
+          image: require('@/assets/images/hgm/vis-regroupement.png'),
           title: 'Conception mécanique',
           description:
             'Études, réalisation, intégration de convoyeurs, systèmes de manipulation et machines de contrôle.',
         },
         {
-          image: require('@/assets/images/hgm/vis-regroupement.png'),
+          image: require('@/assets/images/hgm/machine-eos-3d.png'),
           title: 'Conception électrique',
           description:
             'Études éléctriques, automatismes et programmation de systèmes de contrôle.',

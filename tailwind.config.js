@@ -9,6 +9,11 @@ module.exports = {
         roboto: ['Roboto', 'sans-serif'],
         source: ['Source Sans Pro', 'sans-serif'],
       },
+
+      screens: {
+        xxs: '320px',
+        xs: '375px',
+      },
     },
   },
 

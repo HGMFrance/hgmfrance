@@ -8,7 +8,7 @@
       <section class="relative lg:mx-auto lg:max-w-screen-lg pb-12">
         <StaggeredTextImage
           title="CFIA Rennes 2021"
-          text="Retrouvez-nous au CFIA avec notre partenaire TSEIN à Rennes, du 9 au 11 juin 2021."
+          text="Retrouvez-nous au CFIA à Rennes avec notre partenaire TSEIN du 9 au 11 juin 2021."
           :image="images[0]"
         />
 
