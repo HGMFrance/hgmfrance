@@ -155,6 +155,12 @@ import MailIcon from '@/components/icons/Mail';
 
 export default {
   components: { MobileDeviceIcon, MailIcon },
+
+  head() {
+    return {
+      title: 'H.G.M. France - Contact',
+    };
+  },
 };
 </script>
 

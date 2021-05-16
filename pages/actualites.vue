@@ -44,6 +44,12 @@ export default {
       images: [CfiaImage, AlinaImage, ProdAndPackImage],
     };
   },
+
+  head() {
+    return {
+      title: 'H.G.M. France - Actualités',
+    };
+  },
 };
 </script>
 
