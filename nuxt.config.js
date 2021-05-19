@@ -27,7 +27,7 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://hgmfrance.totominc.io/',
+        content: 'https://hgmfrance.fr/',
       },
       {
         hid: 'og:type',
@@ -49,7 +49,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://hgmfrance.totominc.io/og-image.jpg',
+        content: 'https://hgmfrance.fr/og-image.jpg',
       },
     ],
 
