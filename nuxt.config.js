@@ -69,6 +69,16 @@ export default {
         rel: 'stylesheet',
       },
     ],
+
+    script: [
+      {
+        async: true,
+        defer: true,
+        type: 'text/javascript',
+        'data-domain': 'https://hgmfrance.fr',
+        src: 'https://plausible.io/js/plausible.js',
+      }
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
