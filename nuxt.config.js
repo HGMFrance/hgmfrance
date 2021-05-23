@@ -74,8 +74,7 @@ export default {
       {
         async: true,
         defer: true,
-        type: 'text/javascript',
-        'data-domain': 'https://hgmfrance.fr',
+        'data-domain': 'hgmfrance.fr',
         src: 'https://plausible.io/js/plausible.js',
       }
     ],
