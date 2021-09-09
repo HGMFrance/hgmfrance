@@ -7,22 +7,16 @@
 
       <section class="relative lg:mx-auto lg:max-w-screen-lg pb-12">
         <StaggeredTextImage
-          title="CFIA Rennes 2021"
-          text="Retrouvez-nous au CFIA à Rennes avec notre partenaire TSEIN du 9 au 11 juin 2021."
-          :image="images[0]"
-        />
-
-        <StaggeredTextImage
           title="ALINA 2021"
-          text="Nous serons également présents au salon ALINA à Bordeaux du 28 au 30 septembre 2021."
-          :image="images[1]"
+          text="Retrouvez nous au salon ALINA à Bordeaux du 28 au 30 septembre 2021."
+          :image="images[0]"
           inverted
         />
 
         <StaggeredTextImage
           title="Prod&Pack 2021"
           text="Nous vous attendons aussi au salon Prod&Pack du 16 au 18 novembre 2021 à Lyon."
-          :image="images[2]"
+          :image="images[1]"
         />
       </section>
     </main>
@@ -32,7 +26,6 @@
 <script>
 import StaggeredTextImage from '@/components/StaggeredTextImage'
 
-import CfiaImage from '@/assets/images/salons/cfia-2021.png'
 import AlinaImage from '@/assets/images/salons/alina-2021.png'
 import ProdAndPackImage from '@/assets/images/salons/prod-and-pack-2021.png'
 
@@ -41,7 +34,7 @@ export default {
 
   data() {
     return {
-      images: [CfiaImage, AlinaImage, ProdAndPackImage],
+      images: [AlinaImage, ProdAndPackImage],
     };
   },
 
