@@ -1,6 +1,6 @@
 <template>
   <div id="nuxt-default-wrapper" class="font-roboto">
-    <AlertBanner text="Retrouvez-nous au CFIA avec notre partenaire TSEIN — Hall 5 Stand F36" />
+    <AlertBanner text="Retrouvez-nous au salon ALINA du 28 au 30 septembre à Bordeaux" />
     <TopBanner />
     <TopBar />
     <Nuxt />
