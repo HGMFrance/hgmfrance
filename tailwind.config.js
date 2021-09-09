@@ -1,6 +1,15 @@
 const { orange } = require('tailwindcss/colors');
 
 module.exports = {
+  mode: 'jit',
+
+  purge: [
+    'assets/**/*.svg',
+    'components/**/*.vue',
+    'layouts/**/*.vue',
+    'pages/**/*.vue',
+  ],
+
   theme: {
     extend: {
       colors: { orange },
@@ -16,8 +25,4 @@ module.exports = {
       },
     },
   },
-
-  variants: {
-    extend: {},
-  },
-}
+};
