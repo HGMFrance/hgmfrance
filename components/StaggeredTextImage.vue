@@ -8,13 +8,15 @@
         inverted ? 'lg:order-1 lg:pl-16' : 'order-0 lg:pr-16',
       ]"
     >
-      <h2
-        class="mb-6 text-blue-900 text-2xl max-w-xl leading-tight font-bold font-source"
+      <a
+        class="text-blue-900 text-2xl max-w-xl leading-tight font-bold font-source underline"
+        :href="link"
+        target="_blank"
       >
         {{ title }}
-      </h2>
+      </a>
 
-      <div class="text mb-8 lg:mb-0" v-html="text"></div>
+      <div class="text mb-8 mt-4 lg:mb-0" v-html="text"></div>
     </div>
 
     <img
@@ -37,6 +39,11 @@ export default {
     },
 
     text: {
+      type: String,
+      required: true,
+    },
+
+    link: {
       type: String,
       required: true,
     },

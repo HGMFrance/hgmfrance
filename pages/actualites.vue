@@ -7,16 +7,18 @@
 
       <section class="relative lg:mx-auto lg:max-w-screen-lg pb-12">
         <StaggeredTextImage
-          title="ALINA 2021"
-          text="Retrouvez nous au salon ALINA à Bordeaux du 28 au 30 septembre 2021."
-          :image="images[0]"
-          inverted
+          title="Prod&Pack 2021"
+          text="Nous vous attendons au salon Prod&Pack du 16 au 18 novembre 2021 à Lyon."
+          link="https://www.prodandpack.com/"
+          :image="images[1]"
         />
 
         <StaggeredTextImage
-          title="Prod&Pack 2021"
-          text="Nous vous attendons aussi au salon Prod&Pack du 16 au 18 novembre 2021 à Lyon."
-          :image="images[1]"
+          title="ALINA 2021"
+          text="Nous étions au salon ALINA à Bordeaux du 28 au 30 septembre 2021."
+          link="https://www.salonalina.com/"
+          :image="images[0]"
+          inverted
         />
       </section>
     </main>

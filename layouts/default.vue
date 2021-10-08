@@ -1,6 +1,6 @@
 <template>
   <div id="nuxt-default-wrapper" class="font-roboto">
-    <AlertBanner text="Retrouvez-nous au salon ALINA du 28 au 30 septembre à Bordeaux" />
+    <AlertBanner text="Retrouvez-nous au salon Prod&Pack du 16 au 18 novembre à Lyon" />
     <TopBanner />
     <TopBar />
     <Nuxt />
