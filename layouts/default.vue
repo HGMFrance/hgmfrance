@@ -1,6 +1,6 @@
 <template>
   <div id="nuxt-default-wrapper" class="font-roboto">
-    <AlertBanner text="Retrouvez-nous au salon Prod&Pack du 16 au 18 novembre à Lyon" />
+    <AlertBanner text="Retrouvez-nous au CFIA de Rennes du 8 au 10 mars 2022" />
     <TopBanner />
     <TopBar />
     <Nuxt />
