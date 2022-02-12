@@ -5,7 +5,7 @@
     >
       <nuxt-link to="/" class="inline-block w-auto h-auto">
         <img
-          class="inline-block h-6 xs:h-8 lg:h-10 w-auto"
+          class="inline-block h-6 lg:h-10 w-auto"
           src="@/assets/logo/hgm-logo-black-no-padding.png"
           alt=""
         />
