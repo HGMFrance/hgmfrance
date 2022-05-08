@@ -8,7 +8,7 @@
       <section class="relative lg:mx-auto lg:max-w-screen-lg pb-12">
         <StaggeredTextImage
           title="Prod&Pack 2021"
-          text="Nous vous attendons au salon Prod&Pack du 16 au 18 novembre 2021 à Lyon."
+          text="Nous étions au salon Prod&Pack du 16 au 18 novembre 2021 à Lyon."
           link="https://www.prodandpack.com/"
           :image="images[1]"
         />

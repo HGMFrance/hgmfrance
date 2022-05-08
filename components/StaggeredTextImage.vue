@@ -9,7 +9,7 @@
       ]"
     >
       <a
-        class="text-blue-900 text-2xl max-w-xl leading-tight font-bold font-source underline"
+        class="text-blue-900 text-2xl max-w-xl leading-tight font-bold font-source"
         :href="link"
         target="_blank"
       >
