@@ -14,7 +14,7 @@
 
         <p class="contact-item mb-4">
           <Mail class="contact-icon" />
-          <a href="mailto:contact@hgmfrance.fr">contact@hgmfrance.fr</a>
+          <a href="mailto:contact@hgmfrance.com">contact@hgmfrance.com</a>
         </p>
 
         <p class="contact-item">
