@@ -16,7 +16,7 @@
 
               <p class="flex items-center mb-4 font-inter font-medium text-base text-gray-100 underline">
                 <MailIcon class="inline-block h-6 w-6 mr-2" />
-                <a href="mailto:contact@hgmfrance.fr">contact@hgmfrance.fr</a>
+                <a href="mailto:contact@hgmfrance.com">contact@hgmfrance.com</a>
               </p>
 
               <p class="flex items-center font-inter font-medium text-base text-gray-100 underline">
