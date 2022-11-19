@@ -7,17 +7,17 @@
 
       <section class="relative lg:mx-auto lg:max-w-screen-lg pb-12">
         <StaggeredTextImage
-          title="Prod&Pack 2022"
-          text="Nous serons au salon Prod&Pack du 21 au 23 novembre 2022 à Lyon."
-          link="https://www.prodandpack.com/"
-          :image="ProdAndPackImage"
+          title="CFIA de Rennes"
+          text="Nous serons au CFIA de Rennes du 14 au 16 mars 2023."
+          link="https://www.cfiaexpo.com/fr"
+          :image="Cfia2023Image"
         />
 
         <StaggeredTextImage
-          title="CFIA de Rennes"
-          text="Nous serons au CFIA de Rennes du 14 au 16 novembre 2023."
-          link="https://www.cfiaexpo.com/fr"
-          :image="Cfia2023Image"
+          title="Prod&Pack 2023"
+          text="Nous serons au salon Prod&Pack du 21 au 23 novembre 2023 à Lyon."
+          link="https://www.prodandpack.com/"
+          :image="ProdAndPackImage"
           inverted
         />
 
