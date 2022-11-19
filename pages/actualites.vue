@@ -7,17 +7,34 @@
 
       <section class="relative lg:mx-auto lg:max-w-screen-lg pb-12">
         <StaggeredTextImage
+          title="Prod&Pack 2022"
+          text="Nous serons au salon Prod&Pack du 21 au 23 novembre 2022 à Lyon."
+          link="https://www.prodandpack.com/"
+          :image="ProdAndPackImage"
+        />
+
+        <StaggeredTextImage
+          title="CFIA de Rennes"
+          text="Nous serons au CFIA de Rennes du 14 au 16 novembre 2023."
+          link="https://www.cfiaexpo.com/fr"
+          :image="Cfia2023Image"
+          inverted
+        />
+
+        <h2 class="lg:mx-auto lg:max-w-screen-lg pt-6 pb-4 px-8 lg:px-0 text-3xl font-bold text-gray-900">Salons passés</h2>
+
+        <StaggeredTextImage
           title="Prod&Pack 2021"
           text="Nous étions au salon Prod&Pack du 16 au 18 novembre 2021 à Lyon."
           link="https://www.prodandpack.com/"
-          :image="images[1]"
+          :image="ProdAndPackImage"
         />
 
         <StaggeredTextImage
           title="ALINA 2021"
           text="Nous étions au salon ALINA à Bordeaux du 28 au 30 septembre 2021."
           link="https://www.salonalina.com/"
-          :image="images[0]"
+          :image="AlinaImage"
           inverted
         />
       </section>
@@ -30,13 +47,16 @@ import StaggeredTextImage from '@/components/StaggeredTextImage'
 
 import AlinaImage from '@/assets/images/salons/alina-2021.png'
 import ProdAndPackImage from '@/assets/images/salons/prod-and-pack-2021.png'
+import Cfia2023Image from '@/assets/images/salons/cfia-rennes-2023.png'
 
 export default {
   components: { StaggeredTextImage },
 
   data() {
     return {
-      images: [AlinaImage, ProdAndPackImage],
+      AlinaImage,
+      ProdAndPackImage,
+      Cfia2023Image,
     };
   },
 
