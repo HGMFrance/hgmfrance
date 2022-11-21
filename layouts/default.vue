@@ -1,6 +1,6 @@
 <template>
   <div id="nuxt-default-wrapper" class="font-roboto">
-    <AlertBanner text="Retrouvez-nous au CFIA de Rennes du 21 au 23 novembre 2022" />
+    <AlertBanner text="Retrouvez-nous au CFIA de Rennes du 14 au 16 mars 2023" />
     <TopBanner />
     <TopBar />
     <Nuxt />
