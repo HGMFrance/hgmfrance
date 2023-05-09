@@ -1,17 +1,17 @@
 <template>
   <div id="actualites-page">
     <main>
-      <section class="relative lg:mx-auto lg:max-w-screen-lg pt-20 lg:pt-24 px-8 lg:px-0">
+      <section class="relative lg:mx-auto lg:max-w-screen-lg pt-20 lg:py-24 px-8 lg:px-0">
         <h1 class="text-3xl md:text-4xl lg:text-5xl font-black text-gray-900">Actualités</h1>
+
+        <h3 class="text-lg text-gray-800 mt-4">
+          Venez nous rencontrer sur les salons professionnels de l'agroalimentaire et de l'industrie.
+        </h3>
       </section>
 
+
       <section class="relative lg:mx-auto lg:max-w-screen-lg pb-12">
-        <StaggeredTextImage
-          title="CFIA de Rennes"
-          text="Nous serons au CFIA de Rennes du 14 au 16 mars 2023."
-          link="https://www.cfiaexpo.com/fr"
-          :image="Cfia2023Image"
-        />
+        <h2 class="lg:mx-auto lg:max-w-screen-lg pt-6 pb-4 px-8 lg:px-0 text-3xl font-bold text-gray-900">Salons à venir</h2>
 
         <StaggeredTextImage
           title="Prod&Pack 2023"
@@ -22,6 +22,13 @@
         />
 
         <h2 class="lg:mx-auto lg:max-w-screen-lg pt-6 pb-4 px-8 lg:px-0 text-3xl font-bold text-gray-900">Salons passés</h2>
+
+        <StaggeredTextImage
+          title="CFIA de Rennes"
+          text="Nous étions au CFIA de Rennes du 14 au 16 mars 2023."
+          link="https://www.cfiaexpo.com/fr"
+          :image="Cfia2023Image"
+        />
 
         <StaggeredTextImage
           title="Prod&Pack 2021"
