@@ -4,7 +4,7 @@ export default {
 
   server: {
     // Allow access from local network.
-    host: '0.0.0.0',
+    // host: '0.0.0.0',
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -75,7 +75,7 @@ export default {
         async: true,
         defer: true,
         'data-domain': 'hgmfrance.fr',
-        src: 'https://plausible.io/js/plausible.js',
+        src: 'https://hello.jsgarden.co/js/script.js',
       }
     ],
   },
